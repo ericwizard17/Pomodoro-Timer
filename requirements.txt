@@ -1,0 +1,36 @@
+# Zamanlayıcı Projesi Gereksinimleri
+# Python 3.8+ gerekli
+
+# GUI Framework
+tkinter  # Python ile birlikte gelir, ayrı yükleme gerekmez
+
+# Ses işlemleri (Windows için)
+# winsound Python ile birlikte gelir
+
+# Geliştirme araçları (opsiyonel)
+pytest>=6.0.0          # Test framework
+pytest-cov>=2.0.0      # Test coverage
+black>=21.0.0           # Kod formatlayıcı
+flake8>=3.8.0           # Kod linter
+mypy>=0.800             # Tip kontrolü
+
+# Paketleme araçları
+pyinstaller>=4.0        # Executable oluşturma
+cx-freeze>=6.0          # Alternatif paketleme
+
+# Loglama (opsiyonel)
+loguru>=0.5.0           # Gelişmiş loglama
+
+# Konfigürasyon yönetimi (opsiyonel)
+configparser            # Python ile birlikte gelir
+json                    # Python ile birlikte gelir
+
+# Veritabanı (gelecek özellikler için)
+# sqlite3               # Python ile birlikte gelir
+
+# Bildirimler (opsiyonel)
+plyer>=2.0.0            # Platform bağımsız bildirimler
+
+# Tema desteği (opsiyonel)
+ttkthemes>=3.2.0        # Modern Tkinter temaları
+
